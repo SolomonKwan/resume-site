@@ -1,0 +1,28 @@
+.overlay {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	backdrop-filter: blur(40px);
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show-overlay {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.hide-overlay {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.2s, opacity 0.2s linear;
+}
+
+.overlay-link {
+	margin: 10px;
+	font-size: 50px;
+}

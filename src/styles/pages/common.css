@@ -1,0 +1,51 @@
+.page-container {
+	flex: 1;
+	padding: 20px;
+	background-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.page-title {
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	user-select: none;
+	text-align: center;
+}
+
+.dark-mode {
+	color: white;
+	background-color: black;
+}
+
+.light-mode {
+	color: black;
+	background-color: white;
+}
+
+.dark-mode-text {
+	color: white;
+}
+
+.light-mode-text {
+	color: black;
+}
+
+.margin-top {
+	margin-top: 10px;
+}
+
+.margin-bottom {
+	margin-bottom: 10px;
+}
+
+.attributions {
+	font-size: 11px;
+}
+
+.attributions a {
+	text-decoration: none;
+}

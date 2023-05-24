@@ -1,0 +1,25 @@
+.line {
+	height: 1px;
+	width: 100%;
+	margin: 0;
+}
+
+.dark-mode-line {
+	background-color: black;
+	background-image: linear-gradient(left , black 2%, #363535 50%, black 98%);
+	background-image: -o-linear-gradient(left , black 2%, #363535 50%, black 98%);
+	background-image: -moz-linear-gradient(left , black 2%, #363535 50%, black 98%);
+	background-image: -webkit-linear-gradient(left , black 2%, #363535 50%, black 98%);
+	background-image: -ms-linear-gradient(left , black 2%, #363535 50%, black 98%);
+	background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, black), color-stop(0.5, gray), color-stop(0.98, black) );
+}
+
+.light-mode-line {
+	background-color: #E6E6E6;
+	background-image: linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+	background-image: -o-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+	background-image: -moz-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+	background-image: -webkit-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+	background-image: -ms-linear-gradient(left , white 2%, #E6E6E6 50%, white 98%);
+	background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, gray), color-stop(0.98, white) );
+}

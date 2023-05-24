@@ -1,0 +1,26 @@
+.institution-name {
+	margin-top: 10px;
+}
+
+.degree-info-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.degree-info {
+	display: flex;
+	flex-direction: row;
+}
+
+.degree {
+
+}
+
+.degree-year {
+	margin: 0 0 0 auto;
+	text-align: right;
+}
+
+.degree-comments {
+	margin: 0;
+}

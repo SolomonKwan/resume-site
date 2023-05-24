@@ -1,0 +1,212 @@
+{
+	"education": [
+		{
+			"institution": "University of Queensland, St Lucia",
+			"degrees": [
+				{
+					"degree": "Bachelor of Mathematics/Bachelor of Computer Science",
+					"years": "Feb 2017 - Dec 2021",
+					"comments": [
+						"My mathematics degree was comprised of courses in calculus, linear algebra, ",
+						"statistics/probability, discrete maths and real/complex analysis. I also took a course in ",
+						"operations research and numerical methods in computational science. My computer science ",
+						"degree was comprised of courses mainly in artificial intelligence, machine learning, data ",
+						"structures and algorithms."
+					]
+				},
+				{
+					"degree": "Bachelor of Mathematics/Bachelor of Science",
+					"years": "2017",
+					"comments": [
+						"I changed from a Science (Biomed) to Computer Science degree at the end of the year 2017."
+					]
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"organisation": "WorkingMouse",
+			"roles": [
+				{
+					"role": "Full-Stack Software Engineer",
+					"years": "Jan 2022 - Oct 2022",
+					"comments": [
+						"Worked autonomously and in team of 6 in Department of Defence team.",
+						"Communication with clients to identify requirements, and develop acceptance criteria.",
+						"Frontend development in VueJs and React",
+						"Backend development in Spring framework (Java)",
+						"Selenium and Jest test creation.",
+						"Maintaining, updating and debugging database (MSSQL).",
+						"Code reviews and periodic testing.",
+						"Tech spikes and scoping."
+					],
+					"technologies": [
+						"vuejs", "java", "spring", "react", "selenium", "jest", "mssql", "tomcat", "jenkins", "linux",
+						"windows"
+					]
+				},
+				{
+					"role": "Support Engineer",
+					"years": "Jun 2020 - Dec 2021",
+					"comments": [
+						"Worked as casual support staff.",
+						"Supporting and aiding customers in maintaining, debugging and upgrading products.",
+						"Development with JavaScript, React/React Native (TypeScript), SQL, C# and PHP.",
+						"Communication with clients to understand issues and solution needs.",
+						"Delivery of beta software and assisting with UAT."
+					],
+					"technologies": ["react", "typescript", "csharp", "sql", "jest", "postgres", "linux"]
+				}
+			]
+		},
+		{
+			"organisation": "Australian Taxation Officer",
+			"roles": [
+				{
+					"role": "Administration Officer",
+					"years": "Jun 2019 - Jun 2020",
+					"comments": [
+						"Worked in the Work Related Expenses (WRE) team.",
+						"Assisted in understanding and communicating data insight needs.",
+						"Assisted in the identification of tax-overclaimants.",
+						"Began work in the creation of a data analysis tool for analysing tax payers.",
+						"Transferred to call-centre to assist with call influx due to onset of the pandemic."
+					],
+					"technologies": ["sql", "javascript", "html", "css"]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"group": "Programming Languages",
+			"skills": [
+				{
+					"name": "C++",
+					"icon": "cpp",
+					"level": "Intermediate",
+					"comments": [
+						"Used in my personal CLI chess AI project (see GitHub).",
+						"Multithreading",
+						"Basic templating",
+						"OOP",
+						"Memory management",
+						"Operator overloading"
+					]
+				},
+				{
+					"name": "JavaScript",
+					"icon": "javascript",
+					"level": "Intermediate",
+					"comments": [
+						"Used in personal projects (like this site) and workplace.",
+						"Mainly used for object manipulation and webpage rendering.",
+						"Always used in conjunction with React/React Native."
+					]
+				},
+				{
+					"name": "Java",
+					"icon": "java",
+					"level": "Intermediate",
+					"comments": [
+						"Used for several university courses.",
+						"Used in workplace as the backend (Spring) for a web application.",
+						"OOP."
+					]
+				},
+				{
+					"name": "Python",
+					"icon": "python",
+					"level": "Intermediate",
+					"comments": [
+						"Used for several university courses.",
+						"Familiar with Numpy, TensorFlow, and Matplotlib.",
+						"Created basic image segmentation and image/object classifiers using TensorFlow.",
+						"OOP"
+					]
+				},
+				{
+					"name": "SQL",
+					"icon": "sql",
+					"level": "Basic",
+					"comments": [
+						"Used sporadically to create basic SQL queries."
+					]
+				},
+				{
+					"name": "Bash",
+					"icon": "bash",
+					"level": "Basic",
+					"comments": [
+						"Used for automating release process in workplace.",
+						"Used for automating testing and releasing process in my chess AI project (see GitHub)."
+					]
+				}
+			]
+		},
+		{
+			"group": "Technologies/Other Tools",
+			"skills": [
+				{
+					"name": "Git",
+					"icon": "git",
+					"level": "Experienced",
+					"comments": [
+						"Used in my personal projects and also in the workplace.",
+						"Familiar with the branching, versioning and naming conventions.",
+						"Familiar with common commands: checkout, branch, commit, status, merge, push/pull, tag, log.",
+						"Less familiarity with more uncommon commands: squash, rebase, revert."
+					]
+				},
+				{
+					"name": "React",
+					"icon": "react",
+					"level": "Intermediate",
+					"comments": [
+						"Used in workplace to create web applications.",
+						"Also used in personal projects.",
+						"Familiar with basics of both class and functional components.",
+						"This site was created with React."
+					]
+				},
+				{
+					"name": "React Native",
+					"icon": "react",
+					"level": "Intermediate",
+					"comments": [
+						"Similar to the above, used in workplace for mobile app development."
+					]
+				},
+				{
+					"name": "TypeScript",
+					"icon": "typescript",
+					"level": "Intermediate",
+					"comments": [
+						"I have almost always used TypeScript whenever using React/React Native.",
+						"This site uses TypeScript"
+					]
+				},
+				{
+					"name": "Linux",
+					"icon": "linux",
+					"level": "Basic",
+					"comments": [
+						"My main OS for day-to-day use.",
+						"Used for both workplace and personal software development.",
+						"General understanding of the file system structure.",
+						"General understanding of user and group permissions (chmod, chgrp)."
+					]
+				},
+				{
+					"name": "VueJs",
+					"icon": "vuejs",
+					"level": "Basic",
+					"comments": [
+						"Used in workplace to create web application."
+					]
+				}
+			]
+		}
+	]
+}

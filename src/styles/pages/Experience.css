@@ -1,0 +1,33 @@
+.experience-info-container {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.experience-info {
+	display: flex;
+	flex-direction: row;
+}
+
+.experience {
+	margin-bottom: 10px;
+}
+
+.experience-year {
+	margin: 0 0 0 auto;
+	text-align: right;
+}
+
+.experience-comments {
+	margin: 0 0 5px 15px;
+	list-style-position: inside;
+}
+
+.techs-used-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.techs-used-container img {
+	margin: 3px;
+}

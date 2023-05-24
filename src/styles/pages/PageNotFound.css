@@ -1,0 +1,34 @@
+.not-found-msg {
+	font-size: 50px;
+	margin: 20px;
+	text-align: center;
+}
+
+.go-home {
+	font-weight: 600;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+
+	height: 50px;
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	border-radius: 50px;
+
+	cursor: pointer;
+	user-select: none;
+	background-color: rgba(113, 208, 240, 0.6);
+	transition: 0.2s;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.go-home:hover {
+	background-color: rgba(113, 208, 240, 1);
+}
+
+.custom-margin-bottom {
+	margin-bottom: 30px;
+}

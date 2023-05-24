@@ -1,0 +1,24 @@
+@import url("./common.css");
+
+.skill-info-container {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.skill-info {
+	display: flex;
+	flex-direction: row;
+}
+
+.skill {
+	margin: 0 10px 0 0;
+}
+
+.skill-year {
+	margin: 0 0 0 auto;
+}
+
+.skill-comments {
+	margin: 0 0 5px 15px;
+	list-style-position: inside;
+}
