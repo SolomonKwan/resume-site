@@ -34,7 +34,6 @@ function Education(props: IDarkModeState) {
 					return <>
 						<h2 className="institution-name">{inst.institution}</h2>
 						{inst.degrees.map((deg: any) => {
-							console.log(deg.comments);
 							return <Degree
 								key={uuidv4()}
 								degree={deg.degree}
