@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 import "../styles/pages/PageTemplate.css";
 import Hamburger from "../components/Hamburger";
@@ -18,6 +18,12 @@ const WiggleIcon = ({ children }: IWiggleIcon) =>
 
 function PageTemplate(props: IDarkMode) {
 	const [showOverlay, setShowOverlay] = useState(false);
+	const location = useLocation();
+	useEffect(() => {
+		return () => {
+			setShowOverlay(false);
+		};
+	}, [location.pathname]);
 
 	function toggleOverlay() {
 		setShowOverlay(!showOverlay);
