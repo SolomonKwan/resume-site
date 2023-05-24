@@ -8,7 +8,7 @@ function PageNotFound(props: IDarkModeState) {
 		<div className={`page-container main-padding ${props.darkMode ? "dark-mode" : "light-mode"}`}>
 			<h4 className="not-found-msg">THE PAGE YOU&apos;RE LOOKING FOR IS NOT FOUND</h4>
 			<Line className="custom-margin-bottom" darkMode={props.darkMode} />
-			<a href="home" className="go-home">Go Home</a>
+			<a href="/home" className="go-home">Go Home</a>
 		</div>
 	);
 }

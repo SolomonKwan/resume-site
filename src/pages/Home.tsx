@@ -11,13 +11,13 @@ function Home(props: IDarkModeState) {
 			<div className="links-container">
 				<a
 					target="_"
-					href="https:www.linkedin.com/in/jiu-yue-solomon-kwan/"
+					href="https://www.linkedin.com/in/jiu-yue-solomon-kwan/"
 					className="fa fa-linkedin linkedin-icon icon"
 					draggable={false}
 				/>
 				<a
 					target="_"
-					href="https:github.com/SolomonKwan"
+					href="https://www.github.com/SolomonKwan"
 					className={`fa fa-github github-icon icon ${props.darkMode ? "github-dark-mode" : "github-light-mode"}`}
 					draggable={false}
 				/>
