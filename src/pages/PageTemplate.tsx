@@ -22,6 +22,7 @@ function PageTemplate(props: IDarkMode) {
 	useEffect(() => {
 		return () => {
 			setShowOverlay(false);
+			document.getElementsByTagName("body")[0]!.style.overflow = "auto";
 		};
 	}, [location.pathname]);
 
