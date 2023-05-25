@@ -22,16 +22,16 @@ function PageTemplate(props: IDarkMode) {
 	useEffect(() => {
 		return () => {
 			setShowOverlay(false);
-			document.getElementsByTagName("body")[0]!.style.overflow = "auto";
+			document.getElementsByTagName("body")[0].style.overflow = "auto";
 		};
 	}, [location.pathname]);
 
 	function toggleOverlay() {
 		setShowOverlay(!showOverlay);
 		if (showOverlay)
-			document.getElementsByTagName("body")[0]!.style.overflow = "auto";
+			document.getElementsByTagName("body")[0].style.overflow = "auto";
 		else
-			document.getElementsByTagName("body")[0]!.style.overflow = "hidden";
+			document.getElementsByTagName("body")[0].style.overflow = "hidden";
 	}
 
 	return (
