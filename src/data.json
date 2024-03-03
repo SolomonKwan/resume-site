@@ -26,7 +26,7 @@
 	],
 	"experience": [
 		{
-			"organisation": "Australian Taxation Officer",
+			"organisation": "Australian Taxation Office",
 			"roles": [
 				{
 					"role": "IT Officer",
@@ -34,7 +34,7 @@
 					"comments": [
 						"Worked with various AWS services including Lambda, S3, Glue, and CloudFormation.",
 						"Transforming, storing, and retrieving data used for different ATO systems and analyses.",
-						"Writing Pytests for changes made."
+						"Writing Pytests."
 					],
 					"technologies": ["aws", "python", "sql"]
 				}
@@ -76,7 +76,7 @@
 			]
 		},
 		{
-			"organisation": "Australian Taxation Officer",
+			"organisation": "Australian Taxation Office",
 			"roles": [
 				{
 					"role": "Administration Officer",
