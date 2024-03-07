@@ -61,3 +61,16 @@
 .home-page-link {
 	margin: 0 15px 0 15px;
 }
+
+.cv-download {
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+	align-self: center;
+	margin-top: 20px;
+}
+
+.cv-download p {
+	margin-left: 5px;
+}
