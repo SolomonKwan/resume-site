@@ -11,14 +11,14 @@
 						"statistics/probability, discrete maths and real/complex analysis. I also took a course in ",
 						"operations research and numerical methods in computational science. My computer science ",
 						"degree was comprised of courses mainly in artificial intelligence, machine learning, data ",
-						"structures and algorithms."
+						"structures and algorithms. My personal interests are in all areas of software."
 					]
 				},
 				{
 					"degree": "Bachelor of Mathematics/Bachelor of Science",
 					"years": "2017",
 					"comments": [
-						"I changed from a Science (Biomed) to Computer Science degree at the end of the year 2017."
+						"I changed from a Science (Biomed) to Computer Science degree at the end of 2017."
 					]
 				}
 			]
@@ -32,11 +32,15 @@
 					"role": "IT Officer",
 					"years": "August 2023 - Present",
 					"comments": [
-						"Worked with various AWS services including Lambda, S3, Glue, and CloudFormation.",
-						"Transforming, storing, and retrieving data used for different ATO systems and analyses.",
-						"Writing Pytests."
+						"Created AWS services for extraction, transformation, and loading of JSON data.",
+						"Optimised processes by updating from stream to batch processing. This resulted in significantly reduced Glue API calls.",
+						"Updated CloudFormation to optimise and consolidate extraneous resource allocations.",
+						"Interacted with AWS services using both the web UI and AWS CLI.",
+						"Liasied with team to develop solutions and share knowledge.",
+						"Wrote Pytests.",
+						"Worked with the following AWS services: S3, Lambda, EventBridge, SQS, Athena, Glue, DynamoDB, CloudFormation, IAM, and Step Functions."
 					],
-					"technologies": ["aws", "python", "sql"]
+					"technologies": ["aws", "python", "bash", "sql"]
 				}
 			]
 		},
@@ -47,14 +51,14 @@
 					"role": "Full-Stack Software Engineer",
 					"years": "Jan 2022 - Oct 2022",
 					"comments": [
-						"Worked autonomously and in team of 6 in Department of Defence team.",
-						"Communication with clients to identify requirements, and develop acceptance criteria.",
+						"Worked autonomously and in a team of 6 in the Department of Defence team.",
+						"Communicated with clients to identify requirements, and develop acceptance criteria.",
 						"Frontend development in VueJs and React",
-						"Backend development in Spring framework (Java)",
-						"Selenium and Jest test creation.",
-						"Maintaining, updating and debugging database (MSSQL).",
-						"Code reviews and periodic testing.",
-						"Tech spikes and scoping."
+						"Backend development in Spring framework (Java).",
+						"Wrote Selenium and Jest tests.",
+						"Maintained, updated and debugged database (MSSQL) issues.",
+						"Conducted code reviews and periodic testing.",
+						"Assisted in tech spikes and scoping."
 					],
 					"technologies": [
 						"vuejs", "java", "spring", "react", "selenium", "jest", "mssql", "tomcat", "jenkins", "linux",
@@ -66,10 +70,10 @@
 					"years": "Jun 2020 - Dec 2021",
 					"comments": [
 						"Worked as casual support staff.",
-						"Supporting and aiding customers in maintaining, debugging and upgrading products.",
-						"Development with JavaScript, React/React Native (TypeScript), SQL, C# and PHP.",
-						"Communication with clients to understand issues and solution needs.",
-						"Delivery of beta software and assisting with UAT."
+						"Supported and aided customers in maintaining, debugging and upgrading products.",
+						"Development was with JavaScript, React/React Native (TypeScript), SQL, C# and PHP.",
+						"Communicated with clients to understand issues and solution needs.",
+						"Assisted in delivery of beta software and assisted with UAT."
 					],
 					"technologies": ["react", "typescript", "csharp", "sql", "jest", "postgres", "linux"]
 				}
@@ -97,6 +101,18 @@
 		{
 			"group": "Programming Languages",
 			"skills": [
+				{
+					"name": "Python",
+					"icon": "python",
+					"level": "Intermediate",
+					"comments": [
+						"Used to create AWS Lambda functions for processing of JSON data.",
+						"Used for several university courses.",
+						"Familiar with Numpy, TensorFlow, and Matplotlib.",
+						"Created basic image segmentation and image/object classifiers using TensorFlow.",
+						"OOP"
+					]
+				},
 				{
 					"name": "C++",
 					"icon": "cpp",
@@ -131,21 +147,11 @@
 					]
 				},
 				{
-					"name": "Python",
-					"icon": "python",
-					"level": "Intermediate",
-					"comments": [
-						"Used for several university courses.",
-						"Familiar with Numpy, TensorFlow, and Matplotlib.",
-						"Created basic image segmentation and image/object classifiers using TensorFlow.",
-						"OOP"
-					]
-				},
-				{
 					"name": "SQL",
 					"icon": "sql",
 					"level": "Basic",
 					"comments": [
+						"Used in conjunction with AWS Athena to query data in S3 buckets.",
 						"Used sporadically to create basic SQL queries."
 					]
 				},
@@ -155,7 +161,8 @@
 					"level": "Basic",
 					"comments": [
 						"Used for automating release process in workplace.",
-						"Used for automating testing and releasing process in my chess AI project (see GitHub)."
+						"Used for automating testing and releasing process in my chess AI project (see GitHub).",
+						"Used to assist with general software development."
 					]
 				}
 			]
@@ -172,6 +179,16 @@
 						"Familiar with the branching, versioning and naming conventions.",
 						"Familiar with common commands: checkout, branch, commit, status, merge, push/pull, tag, log.",
 						"Less familiarity with more uncommon commands: squash, rebase, revert."
+					]
+				},
+				{
+					"name": "AWS",
+					"icon": "aws",
+					"level": "Intermediate",
+					"comments": [
+						"Familiarty with the following services: S3, Lambda, EventBridge, SQS, Athena, DynamoDB, and CloudFormation.",
+						"Basic familiarity with the following services: Glue, IAM, and Step Functions.",
+						"Used to create service archiectures for extraction, transformation, and loading of JSON data."
 					]
 				},
 				{
