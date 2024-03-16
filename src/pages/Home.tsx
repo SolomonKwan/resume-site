@@ -29,13 +29,6 @@ function Home(props: IDarkModeState) {
 				<PageLink link="skills" className={`home-page-link ${props.darkMode ? "dark-mode" : "light-mode"}`} />
 				<PageLink link="contact" className={`home-page-link ${props.darkMode ? "dark-mode" : "light-mode"}`} />
 			</div>
-			<a
-				href={require("../resources/cv.pdf")}
-				download="SolomonKwanCV.pdf"
-				className={`fa fa-download cv-download ${props.darkMode ? "dark-mode" : "light-mode"}`}
-			>
-				<p>CV</p>
-			</a>
 		</div>
 	);
 }
